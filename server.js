@@ -26,7 +26,7 @@ app.get("/api/hello", function (req, res) {
 
 
 app.get("/api/whoami", (req, res) => {
-  res.json({hi: "99.119.251.92"});
+  res.json({ipaddress: "99.119.251.92"});
 });
 
 
