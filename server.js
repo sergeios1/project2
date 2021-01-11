@@ -25,8 +25,18 @@ app.get("/api/hello", function (req, res) {
 });
 
 
+app.get("/api/whoami", (req, res) => {
+  res.json({hi: "99.119.251.92"});
+});
+
+
+
+
 
 // listen for requests :)
-var listener = app.listen(process.env.PORT, function () {
+var listener = app.listen(3000, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
+
+
+//process.env.PORT

@@ -4,6 +4,7 @@
 	"description": "API project for freeCodeCamp",
 	"main": "server.js",
 	"scripts": {
+		"watch": "nodemon",
 		"start": "node server.js"
 	},
 	"dependencies": {
