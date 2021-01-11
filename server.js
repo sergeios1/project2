@@ -26,7 +26,7 @@ app.get("/api/hello", function (req, res) {
 
 
 app.get("/api/whoami", (req, res) => {
-  res.json({ipaddress: "99.119.251.92", language: "en-US,en;q=0.5"});
+  res.json({ipaddress: "99.119.251.88", language: "en-US,en;q=0.5", software: "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"});
 });
 
 
